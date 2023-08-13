@@ -1,0 +1,55 @@
+* {
+    background-color: rgb(26, 55, 96);
+    font-family: Poppins;
+    text-decoration: none;
+    color: white;
+    }
+    nav a{
+      background: white;
+      border: 1px solid white;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1em;
+    color: rgb(26, 55, 96);;
+    }
+    nav {
+      position: fixed;
+      top: 0;
+      background: white;
+      display: flex;
+      width: 100vw;
+    }
+     .project-tile, #profile-link a {
+    color: orange;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1em;
+    }
+    .project-tile {
+      border: 1px solid white;
+    }
+    
+    .icons {
+      display: flex;
+      align-items: center;
+    justify-content: center;
+    }
+    header{
+      padding-top: 30px;
+      text-align: center;
+    }
+    
+    h1 {
+      font-size: 1em;
+      text-align: center;
+    }
+    #fancy-name {
+      color: orange;
+    }
+    
+    @media (max-width: 10px) {
+      * {
+      background-color: black;
+      color: white;
+      }
+    }
